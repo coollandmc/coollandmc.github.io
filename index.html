@@ -11,24 +11,28 @@
     <title>Coolland</title>
 </head>
 <body>
-
     <header>
-    <div id="nav-placeholder"></div>
-    <h1>Coolland</h1>
+      <h1>Coolland</h1>
     </header>
     <main>
+    <div class="image-row">
     <div class="image-container">
       <img src="abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.avif" alt="Coming Soon">
-      <div class="overlay2">
-        <button>Text</button>
+      <div class="overlay">
+        <div class="click-zone">
+        <a href="/coollandevents"><button>Coolland Events</button></a>
+        </div>
       </div>
+    </div>
+    <div class="image-container">
+      <img src="image.png" alt="Coming Soon">
+      <div class="overlay">
+        <div class="click-zone">
+        <a href="/coollandsmp"><button>Coolland SMP</button></a>
+        </div>
+      </div>
+    </div>
     </div>
     </main>
 <script src="script.js"></script>
-<script>
-    fetch('navigation.html')
-        .then(response => response.text())
-        .then(data => document.getElementById('nav-placeholder').innerHTML = data);
-</script>
-</body>
 </html>
