@@ -38,9 +38,9 @@ const translations = {
     news: "News",
   },
   sr: {
-    Coolland: "Кулленд",
-    CoollandEvents: "Кулленд Догађаји",
-    CoollandSMP: "Кулленд СМП",
-    news: "Вести",
+    Coolland: "Coolland",
+    CoollandEvents: "Coolland Event",
+    CoollandSMP: "Coolland SMP",
+    news: "Vesti",
   }
 };
