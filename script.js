@@ -24,9 +24,6 @@ function setLanguage(lang) {
       el.textContent = translations[lang][key];
     }
   });
-
-  // Also translate the browser tab title
-  document.title = translations[lang].title;
 }
 
 // All your translations
@@ -36,11 +33,19 @@ const translations = {
     CoollandEvents: "Coolland Events",
     CoollandSMP: "Coolland SMP",
     news: "News",
+    announce: "Coolland Events 2 announced!",
+    descriptione:"After a year without an event, Coolland Events is finally back with a new host and completely reworked mini-games and 3 custom plugins.",
+    season12:"Coolland Season 12 has begun!",
+    description1s:"New season without any major changes to vanilla gameplay.",
   },
   sr: {
     Coolland: "Coolland",
-    CoollandEvents: "Coolland Event",
+    CoollandEvents: "Coolland Events",
     CoollandSMP: "Coolland SMP",
     news: "Vesti",
+    announce: "Coolland Events 2 je najavljen!",
+    descriptione:"Nakon godinu dana bez eventa, napokon se Coolland Events vraća sa novim hostom i sa skroz reworkovanim mini-igrama i sa 3 custom plugina.",
+    season12:"Coolland Sezona 12 je počela!",
+    description1s:"Nova sezona sa minimalnim pluginima.",
   }
 };
