@@ -12,27 +12,32 @@
 </head>
 <body>
     <header>
-      <h1>Coolland</h1>
+      <div class="language-switcher">
+        <button id="lang-sr" class="lang-btn active">Srpski</button>
+        <button id="lang-en" class="lang-btn">English</button>
+      </div>
+      <h1 data-i18n="Coolland">Coolland</h1>
     </header>
     <main>
     <div class="image-row">
     <div class="image-container">
       <img src="abstract-grunge-style-coming-soon-with-black-splatter_1017-26690.avif" alt="Coming Soon">
       <div class="overlay">
-        <div class="click-zone">
-        <a href="/coollandevents"><button>Coolland Events</button></a>
+        <a href="/coollandevents"><button data-i18n="CoollandEvents">Coolland Events</button></a>
         </div>
       </div>
-    </div>
     <div class="image-container">
       <img src="image.png" alt="Coming Soon">
       <div class="overlay">
-        <div class="click-zone">
-        <a href="/coollandsmp"><button>Coolland SMP</button></a>
+        <a href="/coollandsmp"><button data-i18n="CoollandSMP">Coolland SMP</button></a>
         </div>
       </div>
-    </div>
-    </div>
+      </div>
+      <div class="cn-line">
+          <div class="line"></div>
+          <div class="pglv"></i><h1 data-i18n="news">Вести</h1></div>
+        <div class="line"></div>
+      </div>
     </main>
 <script src="script.js"></script>
 </html>
